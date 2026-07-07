@@ -4,6 +4,7 @@
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 
 # Tests
 .pytest_cache/
@@ -25,3 +26,5 @@ data/indexes/*.faiss
 
 # User media
 local_media/
+
+
