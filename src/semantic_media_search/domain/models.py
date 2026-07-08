@@ -8,6 +8,11 @@ class MediaType(str, Enum):
     VIDEO = "video"
     AUDIO = "audio"
 
+@dataclass(frozen=True, slots=True)
+class SearchHit:
+    path: Path
+    score: float
+
 
 @dataclass(slots=True)
 class MediaFile:

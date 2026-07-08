@@ -7,7 +7,12 @@ name = "semantic-media-search"
 version = "0.1.0"
 description = "Local semantic search system for media files"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "numpy",
+    "sentence-transformers",
+    "Pillow",
+    "faiss-cpu",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
